@@ -1,0 +1,14 @@
+\begin{deluxetable}{lrrr}
+\tablecaption{ {{ title }} }
+\tablehead{
+  \colhead{Parameter} &
+  \colhead{Credible Interval} &
+  \colhead{Maximum Likelihood} &
+  \colhead{Units}
+}
+\startdata
+{% for row in derived_rows %}
+  {{ row }} \\
+{% endfor %}
+\enddata
+\end{deluxetable}
